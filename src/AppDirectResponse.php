@@ -5,6 +5,14 @@ namespace adityasetiono\AppDirect;
 
 class AppDirectResponse
 {
+    const TYPE_SUBSCRIPTION_ORDER = 'SUBSCRIPTION_ORDER';
+    const TYPE_SUBSCRIPTION_CHANGE = 'SUBSCRIPTION_CHANGE';
+    const TYPE_SUBSCRIPTION_CANCEL = 'SUBSCRIPTION_CANCEL';
+    const TYPE_SUBSCRIPTION_NOTICE = 'SUBSCRIPTION_NOTICE';
+    const TYPE_USER_ASSIGNMENT = 'USER_ASSIGNMENT';
+    const TYPE_USER_UNASSIGNMENT = 'USER_UNASSIGNMENT';
+    const TYPE_USER_UPDATED = 'USER_UPDATED';
+
     protected $type;
     protected $marketplace;
     protected $creator;
