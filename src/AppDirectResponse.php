@@ -75,5 +75,7 @@ class AppDirectResponse
     public function setReturnUrl(string $returnUrl): AppDirectResponse
     {
         $this->returnUrl = $returnUrl;
+
+        return $this;
     }
 }
