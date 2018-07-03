@@ -11,5 +11,5 @@ composer require adampatpattison/app-direct-wrapper
 ```php
 $oauthRequest = new \OAuth('consumer_secret', 'consumer_key', OAUTH_SIG_METHOD_HMACSHA1);
 $eventUrl = 'http://url.from.appdirect/';
-$response = \adampatpattison\AppDirect\AppDirectRequest::send($eventUrl, $oauthRequest->getRequestHeader('GET', $eventUrl));
+$response = \adampatpattison\AppDirectWrapper\AppDirectRequest::send($eventUrl, $oauthRequest->getRequestHeader('GET', $eventUrl));
 ```
