@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace adampatpattison\AppDirect;
+namespace adampatpattison\AppDirectWrapper;
 
 class AppDirectRequest
 {
