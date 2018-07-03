@@ -7,7 +7,7 @@ class Order
 {
     protected $editionCode;
     protected $pricingDuration;
-    protected $items;
+    protected $items = [];
 
     public function getEditionCode(): ?string
     {
@@ -40,15 +40,16 @@ class Order
 
     public function setItems(array $items): Order
     {
-        $this->items = array_merge($this->getItems(), $items);
-
+        if(isset($items['quantity'])){
+            $items = [$items];
+        }
+        $this->items = $items;
         return $this;
     }
 
     public function setItem(array $items): Order
     {
-        $this->items[] = $items;
-        return $this;
+        return $this->setItems($items);
     }
 
 }
