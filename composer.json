@@ -1,6 +1,6 @@
 {
-    "name": "adityasetiono/app-direct",
-    "description": "Wrapper Class for AppDirect",
+    "name": "adampatpattison/app-direct-wrapper",
+    "description": "Wrapper Class for AppDirect forked from adityasetiono/app-direct",
     "type": "library",
     "require": {
         "php": "~7",
@@ -11,6 +11,10 @@
         {
             "name": "Aditya Setiono",
             "email": "winged.zach@gmail.com"
+        },
+        {
+            "name": "Adam 'Pat' Pattison",
+            "email": "adampatpattison@gmail.com"
         }
     ],
     "autoload": {
