@@ -40,8 +40,15 @@ class Order
 
     public function setItems(array $items): Order
     {
-        $this->items = $items;
+        $this->items = array_merge($this->getItems(), $items);
 
         return $this;
     }
+
+    public function setItem(array $items): Order
+    {
+        $this->items[] = $items;
+        return $this;
+    }
+
 }
