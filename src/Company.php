@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace adityasetiono\AppDirect;
+namespace adampatpattison\AppDirect;
 
 class Company
 {
