@@ -1,4 +1,4 @@
-# app-direct
+# app-direct-wrapper
 Wrapper Class for the AppDirect Distribution 
 
 # Installation
