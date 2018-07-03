@@ -4,24 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "655209b1677fc0f6f26375c73635f28c",
+    "content-hash": "3df2abe94ab66927261201695317af16",
     "packages": [
         {
             "name": "adityasetiono/php-functions",
-            "version": "2.0.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/adityasetiono/php-functions.git",
-                "reference": "c06e00abece15b42ea0ced010e01cd1528209c50"
+                "reference": "37b7933920677ce58af9c3b0bbed09217a8dfe5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adityasetiono/php-functions/zipball/c06e00abece15b42ea0ced010e01cd1528209c50",
-                "reference": "c06e00abece15b42ea0ced010e01cd1528209c50",
+                "url": "https://api.github.com/repos/adityasetiono/php-functions/zipball/37b7933920677ce58af9c3b0bbed09217a8dfe5b",
+                "reference": "37b7933920677ce58af9c3b0bbed09217a8dfe5b",
                 "shasum": ""
             },
             "require": {
                 "php": "~7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
             },
             "type": "library",
             "autoload": {
@@ -40,7 +43,7 @@
                 }
             ],
             "description": "Function helpers for PHP",
-            "time": "2017-10-04T00:49:45+00:00"
+            "time": "2018-03-12T23:55:36+00:00"
         }
     ],
     "packages-dev": [],
