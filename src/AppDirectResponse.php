@@ -14,6 +14,7 @@ class AppDirectResponse
     const TYPE_USER_UPDATED = 'USER_UPDATED';
 
     protected $type;
+    protected $flag;
     protected $marketplace;
     protected $creator;
     protected $payload;
@@ -27,6 +28,18 @@ class AppDirectResponse
     public function setType(string $type): AppDirectResponse
     {
         $this->type = $type;
+
+        return $this;
+    }
+
+    public function getFlag(): ?string
+    {
+        return $this->flag;
+    }
+
+    public function setFlag(string $flag): AppDirectResponse
+    {
+        $this->flag = $flag;
 
         return $this;
     }
